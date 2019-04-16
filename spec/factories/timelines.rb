@@ -1,5 +1,5 @@
 FactoryBot.define do
   factory :timeline do
-    timelinename { "Line1" }
+    timelinename { "MyString" }
   end
 end

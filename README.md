@@ -36,3 +36,6 @@ git push origin master
 SEMAPHORE
 https://chesh74uk.semaphoreci.com
 create a folder .semaphore and add semaphore.yml to it
+
+TODO
+added timeline index need to add new timeline

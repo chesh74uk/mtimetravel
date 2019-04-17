@@ -9,14 +9,16 @@ class TimelinesController < ApplicationController
     @timeline = Timeline.new
   end
   
+  def show
+  end
+  
   # POST /meetings
   def create
     @timeline = Timeline.new(timeline_params)
 
     respond_to do |format|
       if @timeline.save
-        @timelines = Timeline.all
-        format.html { render :index, notice: 'Timeline was successfully created.' }
+        format.html { redirect_to @timeline, notice: 'Timeline was successfully created.' }
       else
         format.html { render :new }
       end

@@ -1,0 +1,9 @@
+<h1>Add a new timeline</h1>
+<div class="row ">
+  <div class="col-md-12">
+    <%= simple_form_for @timeline do |f| %>
+        <%= f.input :timelinename, label: 'Timeline name' %>
+        <%= f.button :submit, class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>

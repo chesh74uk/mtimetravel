@@ -17,6 +17,8 @@ RAILS
 gem install rails -v 5.2.3
 
 GEMS
+https://github.com/twbs/bootstrap-rubygem
+https://github.com/plataformatec/simple_form
 https://docs.mongodb.com/mongoid/current/tutorials/mongoid-installation/
 https://github.com/rspec/rspec-rails
 https://github.com/cucumber/cucumber-rails
@@ -38,4 +40,3 @@ https://chesh74uk.semaphoreci.com
 create a folder .semaphore and add semaphore.yml to it
 
 TODO
-added timeline index need to add new timeline

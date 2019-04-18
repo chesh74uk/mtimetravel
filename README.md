@@ -25,6 +25,7 @@ https://github.com/cucumber/cucumber-rails
 https://github.com/thoughtbot/shoulda-matchers
 https://github.com/thoughtbot/factory_bot_rails
 https://github.com/rails/rails-controller-testing
+https://github.com/BetterErrors/better_errors
 https://github.com/DatabaseCleaner/database_cleaner
 
 edit spec/rails_helper.rb with database cleaning strategy (truncate with mongo)
@@ -40,3 +41,4 @@ https://chesh74uk.semaphoreci.com
 create a folder .semaphore and add semaphore.yml to it
 
 TODO
+Add stages to event

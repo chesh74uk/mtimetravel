@@ -1,2 +1,7 @@
 <h1>Timelines</h1>
 <%= @timeline.timelinename %>
+<div class="row ">
+  <div class="col-md-12">
+   <%= button_to 'Add stage', new_timeline_stage_path(@timeline, @hstage), class: "btn btn-sm btn-success", method: :get %>
+  </div>
+</div>

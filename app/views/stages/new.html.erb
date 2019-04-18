@@ -1,0 +1,6 @@
+<h1>Add a new stage</h1>
+<%= simple_form_for([@timeline, @stage]) do |f| %>
+    <%= f.input :stagename %>
+    <%= f.input :scenario, as: :text %>
+    <%= f.button :submit, class: "btn btn-primary" %>
+<% end %>

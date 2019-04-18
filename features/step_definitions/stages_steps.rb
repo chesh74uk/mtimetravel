@@ -8,9 +8,9 @@ Given("I have a timeline") do
 end
 
 When("I select new stage") do
-  pclick_button "New stage"
+  click_button "Add stage"
 end
 
 Then("show me a stage form") do
-  pending # Write code here that turns the phrase above into concrete actions
+  expect(page).to have_content("Add a new stage")
 end

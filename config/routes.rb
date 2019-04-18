@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+  get 'stages/new'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root to: "timelines#index"
   
-  resources :timelines
+  resources :timelines do
+    resources :stages
+  end
   
 end

@@ -36,6 +36,10 @@ git add * && git commit -m "msg"
 git remote add origin URL
 git push origin master
 
+git checkout -b branchname
+git merge branchname
+git branch -d branchname
+
 SEMAPHORE
 https://chesh74uk.semaphoreci.com
 create a folder .semaphore and add semaphore.yml to it
